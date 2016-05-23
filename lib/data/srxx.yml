@@ -1,0 +1,2399 @@
+roof_shade:
+  - No Shade
+  - A Little Shade
+  - A Lot Of Shade
+  - Uncertain
+
+electric_bill:
+  - $0-50
+  - $51-100
+  - $101-150
+  - $151-200
+  - $201-300
+  - $301-400
+  - $401-500
+  - $501-600
+  - $601-700
+  - $701-800
+  - $801+
+  
+electric_utility: !!map
+  AK:
+    - Akutan
+    - Alaska Electric Light and Power Co
+    - Alaska Power and Telephone Co
+    - Alaska Village Electric Coop
+    - Anchorage Municipal Light & Power (ML&P)
+    - Atka
+    - Barrow Utilities and Electric Coop (BUECI)
+    - Bethel Utilities
+    - Chefornak
+    - Chugach Electric Association
+    - Copper Valley Electric Association
+    - Cordova Electric Coop
+    - G&K
+    - Galena Electric Utility
+    - Golden Valley Electric Association (GVEA)
+    - Homer Electric Association
+    - Hughes Power and Light Co
+    - Iliamna Newhalen Nondalton Electric Coop (INNEC)
+    - Inside Passage Electric Coop
+    - Ipnatchiaq Electric Co
+    - Ketchikan Public Utilities (KPU)
+    - King Cove
+    - Kodiak Electric Association
+    - Kuiggluum Kallugvia
+    - Kwig Power Co
+    - Matanuska Electric Association
+    - Metlakatla Power and Light
+    - Middle Kuskokwim Electric Coop
+    - Naknek Electric Association
+    - Napakiak Ircinraq Power Co
+    - Nelson Lagoon Electric Coop
+    - Nome (NJUS)
+    - Nushagak Electric Coop
+    - Ouzinkie
+    - Saint Paul
+    - Sitka
+    - Tanana Power Co
+    - Tuntutuliak Commission Services Association
+    - Unalakleet Valley Electric Coop
+    - Unalaska
+    - White Mountain
+    - Yakutat Power
+  AL:
+    - Alabama Power Co
+    - Alexander City
+    - Andalusia
+    - Arab Electric Coop
+    - Athens Utilities
+    - Baldwin EMC
+    - Bessemer
+    - Black Warrior EMC
+    - Central Alabama Electric Coop (CAEC)
+    - Cherokee Electric Coop
+    - Clarke-Washington EMC
+    - Coosa Valley Electric Coop
+    - Covington Electric Coop
+    - Cullman Electric Coop (Cullman EC)
+    - Cullman Power Board
+    - Decatur Utilities
+    - Direct Energy
+    - Dixie Electric Coop (Dixie EC)
+    - Dothan
+    - Fairhope
+    - Florence
+    - Fort Payne Improvement Authority (FPIA)
+    - Franklin Electric Coop
+    - Huntsville Utilities (HSVUTIL)
+    - Joe-Wheeler EMC (JWEMC)
+    - Marshall-De Kalb Electric Coop
+    - Muscle Shoals
+    - North Alabama Electric Coop
+    - Opelika
+    - Pea River Electric Coop
+    - Pioneer Electric Coop
+    - PowerSouth Energy Coop
+    - Riviera Utilities
+    - Robertsdale
+    - Sand Mountain Electric Coop (SMEC)
+    - Sheffield
+    - South Alabama Electric Coop
+    - Southern Pine Electric Coop
+    - Sylacauga Utilities Board
+    - Tallapoosa River Electric Coop
+    - Tennessee Valley Authority (TVA)
+    - Tombigbee Electric Coop
+    - Troy
+    - Tuskegee
+    - Wiregrass Electric Coop
+  AR:
+    - Arkansas Valley Electric Coop (AVEC)
+    - Benton
+    - Bentonville
+    - C&L Electric Coop
+    - Carroll Electric Coop
+    - City Water & Light Plant of Jonesboro
+    - Clarksville Light & Water Co (CL&W)
+    - Clay County Electric Coop
+    - Conway Corp
+    - Craighead Electric Coop
+    - Entergy Arkansas
+    - Farmers Electric Coop
+    - First Electric Coop
+    - Hope
+    - North Arkansas Electric Coop (NAEC)
+    - North Little Rock Electric
+    - Oklahoma Gas & Electric (OGE)
+    - Ouachita Electric Coop (OECC)
+    - Ozarks Electric Coop
+    - Paragould
+    - Petit Jean Electric Coop
+    - Rich Mountain Electric Coop
+    - South Central Arkansas Electric Coop (SCAEC)
+    - Southwest Arkansas Electric Coop (SWREA)
+    - Southwestern Electric Power Co (SWEPCO)
+  AZ:
+    - Arizona Public Service (APS)
+    - Buckeye Water C&D District
+    - Dixie Power
+    - Duncan Valley Electric Coop
+    - Electrical District No 2
+    - Electrical District No 3
+    - Electrical District No 4
+    - Electrical District No 5
+    - Electrical District No 6
+    - Electrical District No 7
+    - Electrical District No 8
+    - Garkane Energy
+    - Gila River (GRICUA)
+    - Graham County Electric Coop
+    - Hohokam Irrigation and Drainage District
+    - Maricopa County Electrical District No 1
+    - Mesa
+    - Mohave Electric Coop
+    - Morenci
+    - Navajo Tribal Utility Authority (NTUA)
+    - Navopache Electric Coop
+    - Page Electric Utility
+    - Safford
+    - Salt River Project (SRP)
+    - San Carlos Project
+    - Sulphur Springs Valley Electric Coop (SSVEC)
+    - Thatcher
+    - Tohono O'Odham Utility Authority
+    - Trico Electric Coop (TRICO)
+    - Tucson Electric Power (TEP)
+    - Unisource Energy Services (UES)
+    - Wellton-Mohawk
+    - Wickenburg
+  CA:
+    - Alameda Municipal Power (Alameda MP)
+    - Anaheim Public Utilities (APU)
+    - Anza Electric Coop
+    - Azusa Light & Water
+    - Banning
+    - Bear Valley
+    - Biggs
+    - Burbank Water & Power (BWP)
+    - Colton
+    - Corona
+    - Delano
+    - Escondido
+    - Glendale Water & Power (GWP)
+    - Gridley Municipal Utilities (GMU)
+    - Healdsburg
+    - Imperial Irrigation District (IID)
+    - Intermountain Power Agency
+    - Kirkwood Meadows PUD
+    - Lassen Municipal Utility District
+    - Liberty Utilities (Algonquin)
+    - Lodi Electric Utility
+    - Lompoc
+    - Los Angeles Dept Water & Power (LADWP)
+    - Marin Clean Energy (MCE)
+    - Merced Irrigation District
+    - Modesto Irrigation District (MID)
+    - Moreno Valley Electric Utility (MVU)
+    - Needles (NPUA)
+    - Pacific Gas & Electric (PG&E)
+    - Pacific Power (PacifiCorp)
+    - Palo Alto Utilities (CPAU)
+    - Pasadena Water & Power (PWP)
+    - Plumas-Sierra Rural Electric Coop
+    - Rancho Cucamonga
+    - Redding Electric Utility (REU)
+    - Riverside Public Utilities (RPU)
+    - Roseville Electric Utility
+    - Sacramento Municipal Utility District (SMUD)
+    - San Diego Gas & Electric (SDG&E)
+    - San Francisco
+    - Santa Clara - Silicon Valley Power (SVP)
+    - Santa Maria Energy
+    - Shasta Lake
+    - Sonoma Clean Power
+    - Southern California Edison (SCE)
+    - Spark Energy
+    - Surprise Valley Electrification Corp
+    - Trinity Public Utilities District (Trinity PUD)
+    - Truckee Donner PUD
+    - Tuolumne Utility District (TUD)
+    - Turlock Irrigation District (TID)
+    - Ukiah
+    - Vernon
+    - Xoom Energy
+  CO:
+    - Aspen
+    - Black Hills Energy
+    - Burlington
+    - Colorado Springs Utilities (CSU)
+    - Delta-Montrose Electric Association (DMEA)
+    - Empire Electric Association
+    - Estes Park
+    - Fort Collins Utilities
+    - Fort Morgan
+    - Fountain
+    - Frederick
+    - Glenwood Springs
+    - Grand Valley Rural
+    - Gunnison
+    - Gunnison County Electric Association
+    - Haxtun
+    - Highline Electric Association (HEA)
+    - Holy Cross Energy
+    - Intermountain Rural Electric Association Coop (IREA)
+    - KC Electric Association
+    - KCP&L Greater Missouri Operations Co (GMO)
+    - Kit Carson Electric Coop
+    - La Junta
+    - La Plata Electric Association (LPEA)
+    - Lamar
+    - Las Animas
+    - Longmont Utilities
+    - Loveland Water & Power (LWP)
+    - Lyons
+    - Moon Lake Electric Association
+    - Morgan County REA
+    - Mountain Parks Electric
+    - Mountain View Electric Association (MVEA)
+    - Poudre Valley REA
+    - San Isabel Electric Association (SIEA)
+    - San Luis Valley REC
+    - San Miguel Power Association
+    - Sangre De Cristo Electric Association
+    - Southeast Colorado Power Association (SECPA)
+    - Springfield
+    - Tri-County Electric Coop (TCEC)
+    - Trinidad
+    - United Power
+    - White River Electric Association
+    - Wray
+    - Xcel Energy
+    - Y-W Electric Association
+    - Yampa Valley Electric Association (YVEA)
+    - Yuma
+  CT:
+    - Abest Power and Gas
+    - Ambit Energy
+    - Bozrah Light & Power
+    - Connecticut Light & Power (CL&P, Northeast Utilities)
+    - Consolidated Edison-NY (ConEd)
+    - Constellation Energy
+    - Direct Energy
+    - Discount Power
+    - Eversource
+    - Groton
+    - Jewett City
+    - North American Power
+    - Norwalk Third Taxing District
+    - Norwich Public Utilities (NPU)
+    - Public Power
+    - South Norwalk
+    - Starion Energy
+    - Town Square Energy
+    - United Illuminating (UI)
+    - Verde Energy
+    - Viridian Energy
+    - Wallingford Public Utilities
+  DC:
+    - Direct Energy
+    - Potomac Electric Power Co (PEPCO)
+    - Starion Energy
+    - Washington Gas Energy Services (WGES)
+  DE:
+    - Clayton
+    - Delaware Electric Coop
+    - Delmarva Power & Light (DPL)
+    - Direct Energy
+    - Dover Public Utilities Department
+    - Just Energy
+    - Lewes
+    - Middletown
+    - Milford
+    - New Castle Municipal Services
+    - Newark
+    - Seaford
+    - Smyrna
+    - Starion Energy
+    - Washington Gas Energy Services (WGES)
+  FL:
+    - Alachua
+    - Bartow City Electric Department
+    - Beaches Energy Services
+    - Blountstown
+    - Central Florida Electric Coop (CFEC)
+    - Choctawhatchee Electric Coop (CHELCO)
+    - Clay Electric Coop
+    - Direct Energy
+    - Duke Energy
+    - Escambia River Electric Coop
+    - Florida Keys Electric Coop (FKEC)
+    - Florida Power & Light (FPL)
+    - Florida Public Utilities (FPU)
+    - Fort Meade
+    - Fort Pierce Utilities Authority
+    - Gainesville Regional Utilities (GRU)
+    - Glades Electric Coop
+    - Green Cove Springs
+    - Gulf Coast Electric Coop
+    - Gulf Power
+    - Homestead Public Services (HPS)
+    - JEA
+    - Keys Energy Services
+    - Kissimmee Utility Authority (KUA)
+    - Lake Worth
+    - Lakeland Electric
+    - Lee County Electric Coop (LCEC)
+    - Leesburg
+    - Mount Dora
+    - New Smyrna Beach Utilities Commission (UCNSB)
+    - Ocala Utility Services
+    - Okefenoke REMC (OREMC)
+    - Orlando Utilities Commission (OUC)
+    - Peace River Electric Coop (PRECO)
+    - Progress Energy Florida
+    - Quincy
+    - Reedy Creek Improvement District
+    - Starke
+    - Sumter Electric Coop (SECO)
+    - Suwannee Valley Electric Coop
+    - Tallahassee City Electric
+    - Talquin Electric Coop
+    - Tampa Electric Co (TECO)
+    - Tri-County Electric Coop (TCEC)
+    - Vero Beach
+    - West Florida Electric Coop (WFEC)
+    - Winter Park
+    - Withlacoochee River Electric Coop (WREC)
+  GA:
+    - Acworth
+    - Adel
+    - Albany Water, Gas & Light
+    - Altamaha EMC
+    - Amicalola EMC
+    - Blue Ridge Mountain EMC (BRMEMC)
+    - Buford
+    - Canoochee EMC
+    - Carroll EMC (CEMC)
+    - Cartersville
+    - Central Georgia EMC (CGEMC)
+    - Coastal EMC
+    - Cobb EMC
+    - College Park
+    - Colquitt EMC
+    - Constellation Energy
+    - Covington
+    - Coweta-Fayette EMC
+    - Crisp County Power Commission
+    - Diverse Power
+    - Doerun
+    - Douglas
+    - East Point
+    - Elberton
+    - Ellaville
+    - Excelsior EMC
+    - Fitzgerald
+    - Flint Energies
+    - Georgia Power
+    - Grady EMC
+    - GreyStone Power
+    - Griffin
+    - Habersham EMC
+    - Hart EMC
+    - Hogansville
+    - Irwin EMC
+    - Jackson EMC
+    - Jackson Electric Department
+    - Jefferson Energy Coop (JEC)
+    - La Grange
+    - LaFayette
+    - Lawrenceville
+    - Little Ocmulgee EMC
+    - Marietta Power & Water
+    - Middle Georgia EMC
+    - Mitchell EMC
+    - Monroe
+    - Moultrie
+    - Newnan
+    - Norcross
+    - North American Power
+    - North Georgia EMC
+    - Ocmulgee EMC
+    - Oconee EMC
+    - Okefenoke REMC (OREMC)
+    - Palmetto Utilities
+    - Pataula EMC
+    - Planters EMC
+    - Quitman
+    - Rayle EMC
+    - Satilla REMC
+    - Sawnee EMC
+    - Slash Pine EMC
+    - Snapping Shoals EMC (SSEMC)
+    - Southern Rivers Energy
+    - Sumter EMC
+    - Sylvester
+    - Thomaston
+    - Thomasville
+    - Three Notch EMC
+    - Tri-County EMC
+    - Tri-State EMC
+    - Union City
+    - Upton EMC
+    - Walton EMC
+    - Washington
+    - Washington EMC
+  HI:
+    - Hawaii Electric Light Co (HELCO)
+    - Hawaiian Electric Co (HECO)
+    - Kauai Island Utility Coop (KIUC)
+    - Maui Electric Co (MECO)
+  IA:
+    - Access Energy Coop
+    - Algona
+    - Allamakee-Clayton Electric Coop
+    - Alliant Energy
+    - Alta
+    - Amana Society Service Co
+    - Ames Electric Department
+    - Atlantic Municipal Utilities (AMU)
+    - Bancroft Municipal Electric
+    - Boone Valley Electric Coop
+    - Butler County REC
+    - Calhoun County Electric Coop
+    - Carlisle
+    - Cedar Falls Utilities
+    - Central Iowa Power Coop
+    - Chariton Valley Electric Coop
+    - Clarke Electric Coop
+    - Danville
+    - Denver
+    - East-Central Iowa REC
+    - Eastern Iowa REC
+    - Farmers Electric Coop (FEC Kalona)
+    - Farmers Electric Coop (Farmers REC)
+    - Forest City
+    - Franklin REC
+    - Glidden REC
+    - Gowrie Municipal Utilities
+    - Grundy County REC
+    - Guthrie County REC
+    - Guttenberg
+    - Harrison County REC (HCREC)
+    - Hawarden
+    - Hawkeye REC
+    - Heartland Power Coop
+    - Humboldt County REC
+    - Independence
+    - Interstate Power & Light (IPL)
+    - Iowa Lakes Electric Coop
+    - L&O Power Coop
+    - Lake Mills
+    - Lake View
+    - Lehigh
+    - Linn County REC
+    - Lyon REC
+    - Maquoketa Valley Electric Cooperative (MVEC)
+    - MidAmerican Energy
+    - Midland Power Coop
+    - Mount Pleasant
+    - Muscatine Power and Water
+    - New Hampton
+    - North West REC
+    - Ogden
+    - Onawa
+    - Osage
+    - Osceola Electric Coop
+    - Pella Cooperative Electric
+    - Prairie Energy Coop
+    - Preston
+    - Sioux Center
+    - Southern Iowa Electric Coop
+    - Southwest Iowa REC
+    - State Center
+    - Story City
+    - TIP Rural Electric Coop
+    - United Electric Coop
+    - Villisca
+    - Vinton
+    - Webster City
+    - West Bend
+    - West Point Utility System
+    - Western Iowa Power Coop (WIPCO)
+    - Whittemore
+    - Winterset
+    - Woodbine
+    - Woodbury County REC
+  ID:
+    - Avista
+    - Burley
+    - Clearwater Power Co
+    - Fall River REC
+    - Heyburn
+    - Idaho County Light and Power
+    - Idaho Falls Power
+    - Idaho Power
+    - Kootenai Electric Coop (KEC)
+    - Lost River Electric Coop
+    - Lower Valley Energy
+    - Northern Lights Electric Coop (NLI)
+    - Riverside Electric Coop
+    - Rocky Mountain Power (PacifiCorp)
+    - Rupert
+    - Salmon River Electric Coop
+    - United Electric Coop
+    - Weiser
+  IL:
+    - Ameren Illinois
+    - Batavia
+    - Buffalo
+    - Bushnell
+    - Cairo
+    - Casey
+    - Champion Energy
+    - Chatham
+    - Clay Electric Coop (CECI)
+    - Clinton County Electric Coop (CCECI)
+    - Coles-Moultrie Electric Coop
+    - Commonwealth Edison (ComEd)
+    - Corn Belt Energy
+    - Direct Energy
+    - Eastern Illinois Electric Coop
+    - Edgar Electric Coop
+    - Egyptian Electric Coop
+    - EnerStar Power Corp
+    - Fairfield
+    - Farmers Mutual Electric Co
+    - Flora
+    - Geneva
+    - Green Mountain Energy
+    - Homefield Energy
+    - IGS Energy
+    - Illinois REC
+    - Jo-Carroll Energy Coop
+    - Lewis County REC
+    - MJM Electric Coop
+    - Macon Electric Coop
+    - McDonough Power Coop
+    - Menard Electric Coop
+    - MidAmerican Energy
+    - Missouri REC
+    - Monroe County Electric Coop
+    - Mt Carmel Public Utility Co
+    - Naperville Public Utilities
+    - Norris Electric Coop
+    - North American Power
+    - North Central Missouri Electric Coop
+    - Oglesby
+    - Peru
+    - Rantoul
+    - Rochelle (RMU)
+    - Rock Energy Cooperative
+    - Rural Electric Convenience Coop (RECC)
+    - Shelby Electric Coop
+    - Southeastern Illinois Electric Coop (SEIEC)
+    - Southern Illinois Electric Coop (SIEC)
+    - Southwestern Electric Coop (SWECI)
+    - Spoon River Electric Coop
+    - Springfield
+    - St Charles
+    - Starion Energy
+    - Sullivan
+    - Tri-County Electric Coop
+    - Wayne-White Counties Electric Coop
+    - West Liberty
+    - Western Illinois Electric Coop
+    - Winnetka
+  IN:
+    - Advance
+    - Anderson Municipal Light & Power
+    - Argos
+    - Auburn
+    - Bartholomew County REMC
+    - Boone County REMC
+    - Brooklyn
+    - Cannelton Utilities
+    - Carroll County REMC
+    - City of Columbia City Utilities
+    - Clark County REMC
+    - Crawfordsville Electric Light and Power (CELP)
+    - Daviess Martin County REMC
+    - Decatur County REMC
+    - Direct Energy
+    - Dublin Municipal
+    - Dubois REC
+    - Duke Energy
+    - Dunreith
+    - Fulton County REMC
+    - Garrett
+    - Hancock County REMC
+    - Harrison County REMC
+    - Hendricks Power Coop
+    - Henry County REMC
+    - Huntingburg
+    - Indiana Michigan Power (AEP)
+    - Indianapolis Power & Light Co (IPL)
+    - Jackson County REMC
+    - Jasper County REMC
+    - Jay County REMC
+    - Johnson County REMC
+    - Kankakee Valley REMC (KVREMC)
+    - Kingsford Heights
+    - Kosciusko County REMC
+    - Ladoga
+    - Lagrange County REMC
+    - Lebanon
+    - Marshall County REMC
+    - Miami-Cass County REMC
+    - Mishawaka Utilities
+    - Newton County REMC
+    - Ninestar
+    - Noble County REMC
+    - Northeastern REMC
+    - Northeastern Utilities (NU)
+    - Northern Indiana Public Service Co (NIPSCO)
+    - Orange County REMC
+    - Paoli
+    - Parke County REMC
+    - Peru
+    - Richmond
+    - RushShelby Energy
+    - South Central Indiana REMC (SCIREMC)
+    - Southeastern Indiana REMC (SEIREMC)
+    - Southern Indiana REC
+    - Steuben County REMC
+    - Tell City
+    - Tipmont REMC
+    - Tipton Municipal Utilities
+    - United Rural EMC
+    - Utilities District of Western Indiana REMC
+    - Vectren Corp
+    - Wabash County REMC
+    - Warren County REMC
+    - Washington
+    - Western Indiana Energy REMC (WIN Energy)
+    - White County REMC
+    - Whitewater Valley REMC
+  KS:
+    - Alfalfa Electric Coop
+    - Ark Valley Electric Coop
+    - Attica
+    - Belleville
+    - Black Hills Energy
+    - Bluestem Electric Coop
+    - Brown-Atchison Electric Coop
+    - Burlington
+    - Butler Rural Electric Coop
+    - CMS Electric Coop
+    - Caney Valley Electric Coop
+    - Cawker City
+    - Coffeyville
+    - DS&O Rural Electric Coop
+    - Doniphan Electric Coop
+    - Elwood
+    - Empire District Electric Co (EDE)
+    - Eudora
+    - Flint Hills RECA
+    - Gardner
+    - Heartland REC
+    - Horton
+    - Kansas City Board of Public Utilities (BPU)
+    - Kansas City Power & Light (KCP&L)
+    - Kansas Gas Service
+    - Kaw Valley Electric Coop
+    - Kiowa
+    - La Harpe
+    - Lane-Scott Electric Coop
+    - Leavenworth-Jefferson Electric Coop
+    - Lyon-Coffey Electric Coop
+    - Midwest Energy
+    - Mulvane
+    - Nemaha-Marshall Electric Coop
+    - Ninnescah REC
+    - Ottawa
+    - Pioneer Electric Coop
+    - Prairie Land Electric
+    - Radiant Electric Coop
+    - Rolling Hills Electric Coop
+    - Sedgwick Cnty Electric Coop Association
+    - St Francis
+    - Stafford
+    - Sumner-Cowley Electric Coop
+    - Tri-County Electric Coop (TCEC)
+    - Twin Valley Electric Coop
+    - Victory Electric Coop Association
+    - Wamego
+    - Wellington
+    - Westar Energy
+    - Western Coop Electric Association
+    - Wheatland Electric Coop (WECI)
+    - Winfield
+  KY:
+    - Barbourville Utility Commission
+    - Benton
+    - Berea Municipal Utility
+    - Big Rivers Electric Coop
+    - Big Sandy REC
+    - Blue Grass Energy
+    - Clark Energy Coop
+    - Corbin City Utilities Commission
+    - Cumberland Valley Electric
+    - Direct Energy
+    - Duke Energy
+    - Farmers REC
+    - Fleming-Mason Energy Coop
+    - Frankfort
+    - Franklin
+    - Glasgow
+    - Grayson RECC
+    - Henderson
+    - Hickman
+    - Hopkinsville
+    - Inter Country Energy Coop
+    - Jackson Energy Coop
+    - Jackson Purchase Energy Corp (JP Energy)
+    - Jellico
+    - Kenergy Corp
+    - Kentucky Power
+    - Kentucky Utilities (KU)
+    - Licking Valley RECC (LVRECC)
+    - Louisville Gas & Electric (LG&E)
+    - Madisonville Municipal Utilities
+    - Meade County RECC
+    - Murray Electric System (MES)
+    - Nicholasville
+    - Nolin RECC
+    - Owen Electric Coop
+    - Owensboro Municipal Utilities (OMU)
+    - Paducah
+    - Paris
+    - Pennyrile REC (PRECC)
+    - Salt River Electric
+    - Shelby Energy Coop
+    - South Kentucky RECC (SKRECC)
+    - Taylor County RECC
+    - Warren RECC (WRECC)
+    - West Kentucky RECC (WKRECC)
+  LA:
+    - Abbeville
+    - Alexandria
+    - Beauregard Electric Coop (BECI)
+    - Central Louisiana Electric Co (CLECO)
+    - Claiborne Electric Coop
+    - Concordia Electric Coop
+    - Dixie EMC (DEMCO)
+    - Entergy Gulf States Louisiana
+    - Entergy Louisiana
+    - Entergy New Orleans
+    - Jefferson Davis Electric Coop
+    - Kaplan
+    - Lafayette Utilities System (LUS)
+    - Minden
+    - Morgan City
+    - Natchitoches
+    - Northeast Louisiana Power Coop
+    - Panola-Harrison Electric Coop
+    - Plaquemine
+    - Pointe Coupee EMC
+    - Rayne
+    - Ruston
+    - South Louisiana Electric Coop (SLECA)
+    - Southwest Louisiana Electric Membership Co (SLEMCO)
+    - Southwestern Electric Power Co (SWEPCO)
+    - St Martinville
+    - Terrebonne Parish
+    - Vinton
+    - Washington-St. Tammany Electric Coop (WSTE)
+    - Welsh
+  MA:
+    - Ashburnham
+    - Belmont
+    - Boylston
+    - Braintree Electric Light Department (BELD)
+    - Chester
+    - Chicopee Electric Light Department (CELD)
+    - Concord
+    - Danvers
+    - Direct Energy
+    - Eversource
+    - Fitchburg Gas & Electric Light (Unitil)
+    - Georgetown
+    - Groton
+    - Groveland
+    - Hingham
+    - Holden Municipal Light Department
+    - Holyoke Gas & Electric (HG&E)
+    - Hudson Light and Power
+    - Hull Municipal Light Plant
+    - Ipswich
+    - Just Energy
+    - Liberty Power
+    - Littleton Electric Light Department (LELD)
+    - Mansfield Municipal Electric Department (MMED)
+    - Marblehead
+    - Merrimac
+    - Middleborough Gas & Electric (MGED)
+    - Middleton Electric Light Department (MELD)
+    - NSTAR
+    - Nantucket Electric Co
+    - National Grid
+    - North Attleborough
+    - Norwood
+    - Paxton
+    - Peabody Municipal Light Plant (PLMP)
+    - Princeton
+    - Reading Municipal Light Department (RMLD)
+    - Rowley
+    - Russell
+    - Shrewsbury Electric (SELCO)
+    - South Hadley Electric Light Department (SHELD)
+    - Starion Energy
+    - Sterling (SMLD)
+    - Taunton Municipal Lighting Plant (TMLP)
+    - Templeton Light & Water
+    - Unitil Energy Systems
+    - Verde Energy
+    - Viridian Energy
+    - Wakefield
+    - Wellesley
+    - West Boylston (WBMLP)
+    - Western Massachusetts Electric Co (WMECO)
+    - Westfield Gas + Electric (WG+E)
+  MD:
+    - A & N Electric Coop (ANEC)
+    - Ambit Energy
+    - Baltimore Gas & Electric (BGE)
+    - Berlin
+    - Choptank Electric Coop
+    - Commerce Energy
+    - Consolidated Edison-NY (ConEd)
+    - Constellation Energy
+    - Delmarva Power & Light (DPL)
+    - Easton Utilities Commission
+    - Green Mountain Energy
+    - Hagerstown
+    - NRG Home
+    - North American Power
+    - Potomac Edison (FirstEnergy)
+    - Potomac Electric Power Co (PEPCO)
+    - Somerset REC
+    - Southern Maryland Electric Coop (SMECO)
+    - Starion Energy
+    - Thurmont Municipal Light Co
+    - Washington Gas Energy Services (WGES)
+    - Williamsport
+    - Xoom Energy
+  ME:
+    - Bangor Hydro (Emera)
+    - Central Maine Power Co (CMPCO)
+    - Electricity Maine
+    - Fox Islands Electric Coop
+    - Houlton Water Co
+    - Kennebunk Light and Power District
+    - Maine Public Service
+    - Matinicus Plantation Electric Co (MPEC)
+    - Swans Island Electric Coop
+    - Unitil Energy Systems
+    - Van Buren Light and Power District
+  MI:
+    - Alger-Delta Electric Coop
+    - Alpena Power Co
+    - Bay City Electric Department
+    - Charlevoix
+    - Cherryland Electric Coop (CECELEC)
+    - Clinton
+    - Cloverland Electric Coop
+    - Coldwater (CBPU)
+    - Consumers Energy
+    - Croswell
+    - DTE Energy (Detroit Edison)
+    - Detroit Public Lighting
+    - Direct Energy
+    - Dowagiac
+    - Eaton Rapids
+    - Gladstone
+    - Grand Haven
+    - Great Lakes Energy Coop
+    - Holland Board of Public Works (HBPW)
+    - HomeWorks Tri-County Electric Coop
+    - Indiana Michigan Power (AEP)
+    - Lansing Board of Water & Light (LBWL)
+    - Lowell
+    - Marquette
+    - Marshall
+    - Midwest Energy Coop
+    - Niles
+    - Norway
+    - Ontonagon County R E A
+    - Petoskey
+    - Presque Isle Electric & Gas Coop (PIEG)
+    - St Louis
+    - Sturgis
+    - Thumb Electric Coop (TECMI)
+    - Traverse City
+    - Tri-County Electric Coop
+    - Union City
+    - Upper Peninsula Power Co (UPPCO)
+    - WE Energies
+    - Wyandotte
+    - Xcel Energy
+    - Zeeland
+  MN:
+    - Agralite Electric Coop
+    - Alexandria
+    - Alliant Energy
+    - Anoka
+    - Arrowhead Electric Coop
+    - Austin
+    - BENCO Electric
+    - Beltrami Electric Coop
+    - Blooming Prairie
+    - Brown County REA
+    - Buhl
+    - CenterPoint Electric
+    - Clearwater-Polk Electric Coop
+    - Connexus Energy
+    - Cooperative Light and Power
+    - Crow Wing Power (CW Power)
+    - Dakota Electric
+    - Detroit Lakes
+    - Direct Energy
+    - East Central Energy (ECE)
+    - East Grand Forks
+    - Elk River
+    - Federated REA
+    - Freeborn-Mower Coop Services
+    - Goodhue County Coop (GCCEA)
+    - Grand Marais
+    - Grand Rapids PUC
+    - Great River Energy
+    - Hibbing PUC
+    - Hutchinson Utilities Comm
+    - Interstate Power & Light (IPL)
+    - Itasca-Mantrap Coop
+    - Kandiyohi Power Coop
+    - L&O Power Coop
+    - Lake City
+    - Lake Country Power Coop
+    - Lake Region Electric Coop (LREC)
+    - Lanesboro PUC
+    - Le Sueur
+    - Lyon-Lincoln Electric Coop
+    - McLeod Coop
+    - Meeker Coop
+    - Mille Lacs Electric Coop (MLEC)
+    - Minnesota Power (MN Power)
+    - Minnesota Valley Coop Light and Power Association
+    - Minnesota Valley Electric Coop (MVEC)
+    - Minnesota Valley REC
+    - Minnkota Power Coop
+    - Moorhead
+    - Mountain Iron
+    - Niobrara Electric Association
+    - Nobles Cooperative Electric
+    - North Branch Water and Light Commission
+    - North Itasca Electric Coop
+    - North Star Electric Coop
+    - Otter Tail Power Co
+    - Owatonna
+    - PKM Electric Coop
+    - People's Coop
+    - Princeton
+    - Randall
+    - Red Lake Electric Coop
+    - Red River Valley Coop (RRVCOOP)
+    - Redwood Electric Coop
+    - Redwood Falls Public Utilities
+    - Renville-Sibley Coop Power Association
+    - Rochester Public Utilities (RPU)
+    - Roseau Electric Coop
+    - Runestone Electric Association
+    - Shakopee
+    - Sioux Valley Energy
+    - South Central Electric Association (SCEA)
+    - St Charles
+    - Stearns Electric Association
+    - Steele-Waseca Cooperative Electric (SWCE)
+    - Todd-Wadena Electric Coop
+    - Traverse Electric Coop
+    - Tri-County Electric (TCE)
+    - Truman
+    - Wadena
+    - West Brook
+    - Wild Rice Electric Coop
+    - Wright-Hennepin Coop Electric Association (WHE)
+    - Xcel Energy
+  MO:
+    - Ameren Missouri
+    - Barry Electric Coop
+    - Barton County Electric Coop
+    - Black River Electric Coop
+    - Boone Electric Coop
+    - Callaway Electric Coop
+    - Carroll Electric Coop
+    - Central Missouri Electric Coop
+    - Chillicothe Municipal Utilities
+    - Citizens Electric Corp (CECMO)
+    - City Utilities of Springfield
+    - City of Columbia Utilities
+    - Co-Mo Electric Coop (Co-Mo)
+    - Consolidated Electric Coop
+    - Crawford Electric Coop
+    - Cuivre River Electric Coop
+    - El Dorado Springs
+    - Empire District Electric Co (EDE)
+    - Farmers' Electric Coop
+    - Farmington
+    - Fayette
+    - Freeburg
+    - Gascosage Electric Coop
+    - Grundy Electric Coop
+    - Hannibal
+    - Harrisonville
+    - Higginsville
+    - Howard Electric Coop
+    - Howell-Oregon Electric Coop
+    - Independence Power & Light
+    - Intercounty Electric Coop (IECA)
+    - Jackson
+    - KCP&L Greater Missouri Operations Co (GMO)
+    - Kansas City Power & Light (KCP&L)
+    - Laclede Electric Coop
+    - Memphis
+    - Missouri REC
+    - Monett
+    - Monroe County Electric Coop
+    - Mount Vernon
+    - New-Mac Electric
+    - Nixa
+    - Odessa
+    - Osage Valley Electric Coop
+    - Ozark Border Electric Coop
+    - Ozark Electric Coop
+    - Pemiscot-Dunklin Electric Coop
+    - Platte-Clay Electric Coop (PCEC)
+    - Poplar Bluff
+    - Ralls County Electric Coop
+    - Rich Hill
+    - Rolla
+    - SEMO Electric Coop
+    - Sac-Osage Electric Coop
+    - Se-Ma-No Electric Coop
+    - Shelbina
+    - Sikeston Board of Municipal Utilities (BMU)
+    - Slater
+    - Southwest Electric Coop (SWEC)
+    - Three Rivers Electric Coop
+    - Trenton Municipal Utilities (TMU)
+    - Tri-County Electric Coop
+    - United Electric Coop
+    - Waynesville
+    - Webster Electric Coop
+    - West Central Electric Coop
+    - West Plains
+    - White River Valley Electric Coop (WRVEC)
+    - Willow Springs
+  MS:
+    - 4-County Electric Power Association
+    - Alcorn County Electric Power Association
+    - Amory
+    - Canton Municipal Utilities
+    - Central Electric Power Association
+    - Coast Electric Power Association
+    - Columbus
+    - Delta EPA
+    - Dixie Electric Power Assocation (Dixie EPA)
+    - Dixie Power
+    - East Mississippi Electric Power Association (EMEPA)
+    - Entergy Mississippi
+    - Greenwood Utilities Commission
+    - Leland
+    - Magnolia Electric Power Association
+    - Mississippi Power Co
+    - Monroe County Electric Power Association
+    - Natchez Trace Electric Power
+    - Northcentral Electric Power Association
+    - Okolona
+    - Pearl River Valley Electric Power Association (PRVEPA)
+    - Pontotoc EPA
+    - Prentiss County Electric Power Association
+    - Singing River Electric Power Association
+    - Southern Pine Electric Power Association (SPEPA)
+    - Southwest Mississippi Electric Power Association
+    - Starkville
+    - Tallahatchie Valley Electric Power Association (TVEPA)
+    - Tennessee Valley Authority (TVA)
+    - Tippah EPA
+    - Tishomingo County EPA (TCEPA)
+    - Tombigbee Electric Power Association
+    - Tupelo
+    - Twin County EPA
+    - West Point
+    - Yazoo Valley Electric Power Association
+  MT:
+    - Beartooth Electric Coop
+    - Big Flat Electric Coop
+    - Central Montana Electric Power Coop
+    - Fall River REC
+    - Fergus Electric Coop
+    - Flathead Electric Coop
+    - Glacier Electric Coop
+    - Hill County Electric Coop
+    - Lincoln Electric Coop
+    - Marias River Electric Coop
+    - McCone Electric Coop
+    - Mid-Yellowstone Electric Coop
+    - Mission Valley Power
+    - Montana-Dakota Utilities
+    - Northwestern Energy
+    - Park Electric Coop
+    - Ravalli County Electric Coop
+    - Sun River Electric Coop
+    - Tongue River Electric Coop
+    - Vigilante Electric Coop
+    - Yellowstone Valley Elec Coop
+  NC:
+    - Albemarle
+    - Albemarle EMC
+    - Apex
+    - Ayden
+    - Benson
+    - Black Creek
+    - Blue Ridge EMC (BREMCO)
+    - Brunswick EMC
+    - Cape Hatteras EMC
+    - Carteret-Craven Electric Coop
+    - Central EMC
+    - Clayton
+    - Concord
+    - Dallas
+    - Direct Energy
+    - Duke Energy
+    - Edgecombe-Martin County EMC
+    - Electricities
+    - Elizabeth City
+    - EnergyUnited
+    - Farmville
+    - Fayetteville PWC
+    - Forest City
+    - Four County EMC
+    - French Broad EMC
+    - Gastonia
+    - Granite Falls
+    - Greenville Utilities Commission (GUC)
+    - Halifax EMC
+    - Hamilton
+    - Haywood EMC
+    - Hertford
+    - High Point
+    - Highlands
+    - Hookerton
+    - Huntersville
+    - Jones-Onslow EMC (JOEMC)
+    - Kings Mountain
+    - Kinston
+    - Laurinburg
+    - Lexington
+    - Lincolnton
+    - Louisburg
+    - Lumbee River EMC
+    - Lumberton
+    - Monroe
+    - Morganton
+    - Murphy
+    - New Bern
+    - New River Light and Power Co
+    - Newton
+    - North Carolina Power (Dominion)
+    - Pee Dee EMC (PDEMC)
+    - Piedmont EMC
+    - Pikeville
+    - Pitt & Greene EMC
+    - Progress Energy Carolinas
+    - Randolph EMC
+    - Roanoke EMC
+    - Robersonville
+    - Rocky Mount Public Utilities
+    - Rutherford Electric Membership Corp (REMC)
+    - Selma
+    - Sharpsburg
+    - Shelby
+    - South River EMC (SREMC)
+    - Statesville
+    - Surry-Yadkin EMC (SYEMC)
+    - Tarboro
+    - Tideland EMC
+    - Tri-County EMC (TCEMC)
+    - Tri-State EMC
+    - Union EMC
+    - Union Power Coop
+    - Wake Electric (WEMC)
+    - Wake Forest
+    - Washington
+    - Waynesville
+    - Wilson
+  ND:
+    - Basin Electric Power Coop
+    - Burke-Divide Electric Coop
+    - Capital Electric Coop
+    - Cass County Electric Coop (CCEC)
+    - Cavalier REC
+    - Central Power Electric Coop
+    - Dakota Valley Electric Coop
+    - Goldenwest Electric Coop
+    - KEM Electric Coop
+    - Lower Yellowstone REA
+    - McKenzie Electric Coop
+    - McLean Electric Coop
+    - Montana-Dakota Utilities
+    - Mountrail-Williams Electric Coop
+    - Nodak Electric Coop
+    - North Central Electric Coop
+    - Northern Plains Electric Coop
+    - Otter Tail Power Co
+    - PKM Electric Coop
+    - Riverdale
+    - Roughrider Electric Coop
+    - Sheridan Electric Coop
+    - Slope Electric Coop
+    - Valley City
+    - Verendrye Electric Coop
+    - Xcel Energy
+  NE:
+    - Alliance
+    - Atchison-Holt Electric Coop
+    - Burt County Public Power District
+    - Butler Public Power District
+    - Cedar-Knox Public Power District
+    - Chimney Rock Public Power District
+    - Cornhusker Public Power District
+    - Crete
+    - Cuming County Public Power District
+    - Custer Public Power District
+    - David City
+    - Dawson Public Power District
+    - Elkhorn Rural Public Power District
+    - Falls City
+    - Fremont
+    - Giltner
+    - Grand Island Utilities Department (GIUD)
+    - Harlan
+    - Hastings
+    - Howard Greeley Rural Public Power District
+    - KBR Rural Public Power District
+    - Lincoln Electric System (LES)
+    - Loup River Public Power District
+    - Loup Valleys Rural Public Power District
+    - McCook Public Power District
+    - Midwest EMC
+    - Nebraska Public Power District (NPPD)
+    - Niobrara Valley EMC
+    - Norris Public Power District
+    - North Central Public Power District
+    - Northeast Nebraska Public Power District
+    - Northwest Rural Public Power District
+    - Omaha Public Power District (OPPD)
+    - Panhandle Rural Electric
+    - Perennial Public Power District
+    - Polk County Rural Public Power District
+    - Roosevelt Public Power District (RPPD)
+    - Seward County Public Power District
+    - Sidney
+    - Snyder
+    - South Central Public Power District
+    - Southern Power District
+    - Southwest Public Power District
+    - Stanton County Public Power District
+    - Twin Valleys Public Power District
+    - West Point
+    - Wheat Belt Public Power District
+    - Wyrulec Co
+  NH:
+    - Ashland
+    - ENH Power
+    - Eversource
+    - FairPoint Energy
+    - Granite State Electric (Liberty Utilities)
+    - Littleton
+    - National Grid
+    - New Hampshire Electric Coop (NHEC)
+    - North American Power
+    - Public Service of NH (PSNH)
+    - Unitil Energy Systems
+    - Wolfeboro
+  NJ:
+    - Atlantic City Electric (ACE)
+    - Butler
+    - Champion Energy
+    - Direct Energy
+    - Gateway Energy Services Corp (GESC)
+    - IDT Energy
+    - Jersey Central Power & Light (JCP&L, FirstEnergy)
+    - Lavallette
+    - Madison
+    - Milltown
+    - New Jersey Gas & Electric (NJG&E)
+    - Palmco Power
+    - Park Ridge
+    - Public Service Electric & Gas (PSE&G)
+    - Rockland Electric Co (RECO)
+    - Seaside Heights
+    - South River
+    - Starion Energy
+    - Sussex REC
+    - Vineland Municipal Electric Utility (VMEU/VMU)
+  NM:
+    - Aztec
+    - Central New Mexico Electric Coop
+    - Central Valley Electric Coop
+    - Columbus Electric Coop
+    - Continental Divide Electric Coop (CDEC)
+    - El Paso Electric (EP Electric)
+    - Farmers Electric Coop
+    - Farmington Electric Utility Service (FEUS)
+    - Gallup
+    - Jemez Mountains Electric Coop
+    - Kit Carson Electric Coop (KCEC)
+    - Lea County Electric Coop
+    - Los Alamos County
+    - Mora-San Miguel Electric Coop
+    - Navajo Tribal Utility Authority (NTUA)
+    - Northern Rio Arriba Electric Coop (NORA)
+    - Otero County Electric Coop
+    - Public Service Co of NM (PNM)
+    - Raton Public Service Co
+    - Roosevelt County Electric Coop
+    - Sierra Electric Coop
+    - Socorro Electric Coop
+    - Southwestern Electric Coop
+    - Springer Electric Coop
+    - Tri-County Electric Coop (TCEC)
+    - Truth of Consequences
+    - Xcel Energy
+  NV:
+    - Alamo PUD 3
+    - Boulder
+    - Fallon
+    - Harney Electric Coop
+    - Lincoln County PUD No 1
+    - Mt Wheeler Power
+    - NV Energy
+    - Overton Power District 5
+    - Plumas-Sierra Rural Electric Coop
+    - Raft River Rural Electric
+    - Surprise Valley Electrification Corp
+    - Valley Electric Association (VEA)
+    - Wells Rural Electric Co
+  NY:
+    - Agway Energy Services
+    - Akron
+    - Ambit Energy
+    - Angelica
+    - Arcade
+    - Bath Electric Gas & Water (BEGWS)
+    - Boonville
+    - Bounce Energy
+    - Brocton
+    - Calpine Power America
+    - Castile
+    - Central Hudson Gas & Electric
+    - Churchville
+    - Consolidated Edison-NY (ConEd)
+    - Delaware County Electric Coop
+    - Direct Energy
+    - Eastern Maine Electric Coop
+    - Endicott
+    - Energetix
+    - Energy Coop of New York
+    - Ethical Electric
+    - Fairport Electric
+    - Fishers Island Utility Co
+    - Frankfort
+    - Freeport Electric
+    - Gateway Energy Services Corp (GESC)
+    - Green Island (GIPA)
+    - Green Mountain Energy
+    - Greenport
+    - Groton
+    - Hamilton
+    - Holley
+    - IDT Energy
+    - IGS Energy
+    - Ilion
+    - Jamestown Board of Public Utilities (BPU)
+    - Kiwi Energy
+    - Lake Placid
+    - Little Valley
+    - Marathon
+    - Massena
+    - NRG Home
+    - National Grid
+    - New York Gas & Electric (NYG&E)
+    - New York State Electric & Gas (NYSEG)
+    - Oneida-Madison Electric Coop
+    - Orange & Rockland Utilities (ORU)
+    - Otsego Electric Coop
+    - PSEG Long Island
+    - Penn Yan
+    - Pennsylvania Electric (Penelec)
+    - Philadelphia
+    - Plattsburgh
+    - Richmondville
+    - Rochester Gas & Electric (RG&E)
+    - Rockville Centre
+    - Salamanca
+    - Sherburne
+    - Sherrill
+    - Spencerport Municipal Electric (SME)
+    - Springville
+    - Starion Energy
+    - Steuben REC
+    - Sussex REC
+    - Tupper Lake
+    - Watsontown
+    - Wellsville
+    - Westfield
+  OH:
+    - AEP Ohio
+    - Adams REC
+    - Amherst
+    - Bowling Green
+    - Brewster
+    - Buckeye REC
+    - Butler REC
+    - Carroll Electric Coop
+    - Celina
+    - Cincinnati Bell Energy
+    - Cleveland Public Power (CPP)
+    - Columbiana
+    - Consolidated Electric Coop
+    - Cuyahoga Falls
+    - Darke REC
+    - Dayton Power & Light (DP&L)
+    - Direct Energy
+    - Dover
+    - Duke Energy
+    - Firelands Electric Coop
+    - FirstEnergy
+    - Frontier Power Co
+    - Galion
+    - Grafton
+    - Guernsey-Muskingum Electric Coop
+    - Hamilton
+    - Hancock-Wood Electric Coop
+    - Haskins
+    - Holmes-Wayne Electric Coop
+    - Hubbard
+    - Hudson
+    - IGS Energy
+    - Jackson
+    - Licking Rural Electrification (LRE)
+    - Logan County Electric Coop
+    - Lorain-Medina REC
+    - Mid-Ohio Energy Coop
+    - Midwest Electric
+    - Napoleon Power & Light
+    - Niles
+    - North Central Electric Coop (NCELEC)
+    - North Western Electric Coop
+    - Oak Harbor
+    - Ohio Edison (FirstEnergy)
+    - Orrville
+    - Paulding-Putnam ECA
+    - Pioneer REC
+    - Piqua
+    - Plymouth
+    - Shelby
+    - South Central Power Co
+    - St Clairsville
+    - St Marys
+    - Starion Energy
+    - The Illuminating Company (Cleveland)
+    - Toledo Energy (FirstEnergy)
+    - Tontogany
+    - Tricounty REC
+    - Union REC
+    - Vectren Corp
+    - Wadsworth
+    - Wapakoneta
+    - Washington Electric Coop
+    - Westerville
+  OK:
+    - Altus
+    - Anadarko Public Works Authority
+    - Blackwell
+    - Caddo Electric Coop
+    - Canadian Valley Electric Coop (CVEC)
+    - Central Rural Electric Coop (CREC)
+    - Choctaw Electric Coop
+    - Cimarron Electric Coop
+    - Claremore
+    - Cookson Hills Electric Coop
+    - Cotton Electric Coop
+    - Direct Energy
+    - Duncan
+    - East Central Oklahoma Electric Coop (ECOEC)
+    - Edmond Electric
+    - Frederick
+    - Harmon Electric Association
+    - Indian Electric Coop
+    - Kay Electric Coop
+    - Kiamichi Electric Coop
+    - Kingfisher
+    - Kiwash Electric Coop
+    - Lake Region Electric Coop (LRECOK)
+    - Miami
+    - Newkirk
+    - Northeast Oklahoma Electric Coop
+    - Northfork Electric Coop
+    - Northwestern Electric Coop (NWECOK)
+    - Oklahoma Electric Coop
+    - Oklahoma Gas & Electric (OGE)
+    - People's Electric Coop
+    - Perry
+    - Ponca City
+    - Pond Creek
+    - Pryor
+    - Public Service Company Of Oklahoma (PSO)
+    - Red River Valley REA
+    - Rural Electric Coop (RECOK)
+    - Southeastern Electric Coop
+    - Southwest Rural Electric Association (SWRE)
+    - Stillwater Utilities Authority
+    - Tri-County Electric Coop (TCEC)
+    - Verdigris Valley Electric Coop (VVEC)
+    - Wagoner Public Works Authority
+    - Watonga
+    - Waynoka
+  OR:
+    - Ashland Electric Department
+    - Avista
+    - Bandon
+    - Blachly-Lane County Coop
+    - Canby
+    - Cascade Locks
+    - Central Electric Coop (CEC)
+    - Central Lincoln People's Utility District (CLPUD)
+    - Clatskanie PUD
+    - Clearwater Power Co
+    - Columbia Basin Electric Coop
+    - Columbia Power Coop Association
+    - Columbia River PUD
+    - Consumers Power Inc (CPI)
+    - Coos Curry Electric Coop (CCEC)
+    - Douglas Electric Coop
+    - Drain
+    - Emerald People's Utility District (EPUD)
+    - Eugene Water & Electric Board (EWEB)
+    - Forest Grove
+    - Green Mountain Energy
+    - Harney Electric Coop
+    - Hermiston
+    - Hood River Electric Coop
+    - Lane Electric
+    - McMinnville
+    - Midstate Electric Coop
+    - Monmouth
+    - Northern Wasco County PUD
+    - Oregon Trail Electric Coop (OTECC)
+    - PUD No 1
+    - Pacific Power (PacifiCorp)
+    - Portland General Electric (PGE)
+    - Salem Electric
+    - Springfield Utility Board (SUB)
+    - Tillamook PUD
+    - Umatilla Electric
+    - Wasco Electric Coop
+    - West Oregon Electric Coop
+  PA:
+    - Adams Electric Coop
+    - Adams Electric Coop (Adams EC)
+    - American Power & Gas
+    - Bedford REC
+    - Bounce Energy
+    - CPL Retail Energy
+    - Central Electric Coop
+    - Chambersburg
+    - Champion Energy
+    - Citizens Electric of Lewisburg
+    - Claverack REC
+    - Direct Energy
+    - Duquesne Light (DQE)
+    - Ellwood City
+    - Green Mountain Energy
+    - Hatfield
+    - Kutztown
+    - Lansdale
+    - Metropolitan Edison (Met-Ed)
+    - Missoula Electric Coop
+    - NRG Home
+    - New Wilmington
+    - Northwestern Rural ECA
+    - Olyphant
+    - PECO Energy
+    - PPL Electric Utilities (PPL)
+    - Penn Power (FirstEnergy)
+    - Pennsylvania Electric (Penelec)
+    - Perkasie
+    - Pike County Light & Power Co (PCL&P)
+    - Pitcairn
+    - Quakertown
+    - REA Energy Coop
+    - Somerset REC
+    - St Clair
+    - Starion Energy
+    - Talen Energy
+    - Tarentum
+    - Tri-County REC
+    - UGI Utilities
+    - United Electric Coop
+    - Valley Rural (Valley REC)
+    - Warren Electric Coop
+    - Washington Gas Energy Services (WGES)
+    - Wellsboro Electric Co
+    - Wellsborough Electric Co
+    - West Penn Power (FirstEnergy)
+    - Zelienople
+  RI:
+    - Block Island Power Co
+    - Cleaview Energy
+    - First Point Power (FPP)
+    - National Grid
+    - Pascoag Utility District (PUD)
+    - Xoom Energy
+  SC:
+    - Aiken Electric Coop
+    - Berkeley Electric Coop (BECSC)
+    - Black River Electric Coop
+    - Blue Ridge Electric Coop
+    - Broad River Electric Coop
+    - Camden
+    - Central Electric Power Coop
+    - Clinton Combined Utility System
+    - Coastal Electric Coop
+    - Duke Energy
+    - Easley Combined Utilities
+    - Edisto Electric Coop
+    - Fairfield Electric Coop
+    - Gaffney
+    - Georgetown
+    - Greenwood CPW
+    - Greer
+    - Horry Electric Coop (HEC)
+    - Laurens Electric Coop
+    - Little River Electric Coop
+    - Lockhart Power Co
+    - Lynches River Electric Coop
+    - Marlboro Electric Coop
+    - Mid-Carolina Electric Coop (MCEC)
+    - Newberry
+    - Orangeburg Department of Public Utilities (ORBGDPU)
+    - Palmetto Electric Coop
+    - Pee Dee Electric Coop
+    - Progress Energy Carolinas
+    - Rock Hill
+    - Santee Cooper Power
+    - Santee Electric Coop
+    - Seneca
+    - South Carolina Electric & Gas (SCE&G)
+    - Tri-County Electric Coop (TCE)
+    - Union
+    - Winnsboro
+    - York Electric Coop
+  SD:
+    - Arlington
+    - Aurora
+    - Badger
+    - Black Hills Electric Coop
+    - Black Hills Power
+    - Bon Homme Yankton Electric Association
+    - Brookings
+    - Butte Electric Coop
+    - Cam Wal Electric Coop
+    - Central Electric Coop
+    - Charles Mix Electric Association
+    - Cherry-Todd Electric Coop
+    - Clay-Union Electric Coop
+    - Codington-Clark Electric Coop
+    - Colman
+    - Dakota Energy Coop
+    - Douglas Electric Coop
+    - East River Electric Power Coop
+    - Estelline
+    - FEM Electric Association
+    - Grand Electric Coop
+    - H-D Electric Coop
+    - Hecla
+    - Kingsbury Electric Coop
+    - LaCreek Electric Association
+    - Lake Region Electric Association
+    - Montana-Dakota Utilities
+    - Mor-Gran-Sou Electric Coop
+    - Moreau-Grand Electric Coop
+    - Northern Electric Coop
+    - Northwestern Energy
+    - Oahe Electric Coop
+    - Pierre
+    - Rosebud Electric Coop
+    - Rushmore Electric Power Coop
+    - Sioux Falls
+    - Southeast Electric Coop
+    - Southeastern Electric Coop
+    - Union County Electric Coop
+    - West Central Electric Coop
+    - West River Electric Association
+    - Whetstone Valley Electric Coop
+    - Xcel Energy
+  TN:
+    - Alcoa
+    - American Electric Power (AEP)
+    - Appalachian Electric Coop
+    - Appalachian Power (AEP)
+    - Athens (AUB)
+    - Bolivar Energy Authority
+    - Bristol Tennessee Essential Services (BTES)
+    - Calhoun
+    - Caney Fork Electric Coop
+    - Carroll County
+    - Chattanooga (EPB)
+    - Chickasaw Electric Coop
+    - Clarksdale Public Utilities
+    - Clarksville Department of Electricity (CDE)
+    - Cleveland Utilities
+    - Clinton Utilities Board
+    - Coahoma EPA
+    - Columbia Power System
+    - Cookeville
+    - Cumberland EMC
+    - Dalton Utilities
+    - Dayton
+    - Dickson Electric Systems
+    - Duck River EMC (DREMC)
+    - Elizabethton Electric Department (EED)
+    - Erwin
+    - Etowah
+    - Fayetteville
+    - Forked Deer Electric Coop
+    - Fort Loudoun Electric Coop (FLEC)
+    - Gallatin
+    - Gibson EMC
+    - Greeneville Light & Power System (GLPS)
+    - Harriman
+    - Holly Springs
+    - Holston Electric Coop (HEC)
+    - Jackson Energy Authority (JEA)
+    - Jellico
+    - Johnson City Power Board (JCPB)
+    - Knoxville Utilities Board (KUB)
+    - Lafollette
+    - Lawrenceburg
+    - Lenoir City Utilities Board (LCUB)
+    - Maryville
+    - McMinnville Electric System
+    - Memphis Light Gas & Water (MLGW)
+    - Meriwether Lewis Electric Coop (MLEC)
+    - Middle Tennessee EMC (MTEMC)
+    - Milan Public Utilities (MPU)
+    - Mississippi County Electric Coop
+    - Morristown
+    - Mountain Electric Coop
+    - Murfreesboro Electric Department
+    - Nashville Electric Service (NES)
+    - Newport
+    - North East Mississippi EPA
+    - Oak Ridge
+    - Osceola
+    - Paris
+    - Pickwick Electric Coop
+    - Plateau Electric Coop
+    - Powell Valley Electric Coop
+    - Pulaski
+    - Ripley
+    - Rockwood
+    - Sequachee Valley Electric Coop (SVEC)
+    - Sevier County Electric System (SCES)
+    - Southwest Tennessee EMC (STEMC)
+    - Springfield
+    - Sweetwater
+    - Tallapoosa River Electric Coop
+    - Tennessee Valley Authority (TVA)
+    - Tri-County Electric (TCEMC)
+    - Tri-State EMC
+    - Upper Cumberland EMC (UCEMC)
+    - Volunteer Energy Coop (VEC)
+    - Weakley County Municipal Electric System
+    - West Memphis
+  TX:
+    - 4Change Energy Co
+    - AEP Texas
+    - APG&E
+    - APNA Energy
+    - Acacia Energy
+    - Alliance Power Co
+    - Ambit Energy
+    - American Light and Power
+    - Amigo Energy
+    - Andeler Power
+    - Atmos Energy
+    - Austin Energy
+    - Bailey County Electric Coop
+    - Bandera Electric Coop
+    - Bartlett Electric Coop
+    - Bastrop
+    - Beyond Power
+    - Big Country Electric Coop
+    - Bluebonnet Electric Coop
+    - Boerne
+    - Bounce Energy
+    - Bowie-Cass Electric Coop
+    - Brady
+    - Breeze Energy
+    - Brenham
+    - Brilliant Energy
+    - Brownsville Public Utilities Board (BPUB)
+    - Bryan Texas Utilities (BTU)
+    - Burnet
+    - CPL Retail Energy
+    - CPS Energy (City Public Service)
+    - CenterPoint Electric
+    - Central Texas Electric Coop (CTEC)
+    - Champion Energy
+    - Cherokee County Electric Coop (CCECA)
+    - Choice Energy
+    - Cirro Energy
+    - Clearview Energy
+    - CoServ Electric
+    - Coleman County Electric Coop
+    - College Station
+    - Comanche Electric Coop
+    - Concho Valley Electric Coop
+    - Cooke County Electric Coop (CCECA)
+    - DPI Energy
+    - Deaf Smith Electric Coop
+    - Deep East Texas Electric Coop
+    - Denton
+    - Direct Energy
+    - Discount Power
+    - El Paso Electric (EP Electric)
+    - Electra
+    - Energy Plus
+    - Entergy Texas
+    - Entrust Energy
+    - Everything Energy (NRG)
+    - Fannin County Electric Coop
+    - Farmers Electric Coop (FEC)
+    - Farmersville
+    - Fayette Electric Coop
+    - First Choice Power
+    - Floresville
+    - Fort Belknap Electric Coop
+    - Frontier Utilities
+    - Garland Power & Light Co (GP&L)
+    - Georgetown
+    - Gexa Energy
+    - Giddings
+    - Goldthwaite
+    - Gonzales
+    - Granbury
+    - Grayson-Collin Electric Coop (GCEC)
+    - Green Mountain Energy
+    - Greenbelt Electric Coop
+    - Greenville (GEUS)
+    - Guadalupe Valley Electric Coop (GVEC)
+    - HILCO Electric Coop
+    - Hamilton County Electric Coop
+    - Hearne
+    - Heart Of Texas Electric Coop
+    - Hino Electric Power Co
+    - Houston County Electric Coop
+    - Hudson Energy Services
+    - IGS Energy
+    - Infinite Energy
+    - Infuse Energy
+    - J-A-C Electric Coop
+    - Jackson Electric Coop
+    - Jasper-Newton Electric Coop
+    - Just Energy
+    - Karnes Electric Coop
+    - Kerrville Public Utility Board (KPUB)
+    - Kona Energy
+    - Lamar County Electric Coop
+    - Lamb County Electric Coop
+    - Lampasas
+    - Liberty Power
+    - Lighthouse Electric Coop
+    - Llano
+    - Lockhart
+    - Lower Colorado River Authority
+    - Lubbock Power & Light (LP&L)
+    - Luminant Energy
+    - Lyntegar Electric Coop
+    - Magic Valley Electric Coop
+    - Mason
+    - Medina Electric Coop
+    - Mid-South Electric Coop
+    - Navarro County Electric Coop
+    - Navasota Valley Electric Coop
+    - New Braunfels (NBU)
+    - North Plains Electric Coop
+    - Nueces Electric Coop
+    - Oncor Electric Delivery Co
+    - Our Energy
+    - Panola-Harrison Electric Coop
+    - Payless Power
+    - Pedernales Electric Coop (PEC)
+    - Pennywise Power
+    - Pioneer Energy
+    - Potentia Energy
+    - Rayburn Country Electric Coop (RCEC)
+    - Reach Energy
+    - Reliant
+    - Rio Grande Electric Coop
+    - Rita Blanca Electric Coop
+    - Rusk County Electric Coop
+    - Sam Houston Electric Coop
+    - San Antonio City Public Service Energy (CPSE)
+    - San Bernard Electric Coop
+    - San Marcos
+    - San Patricio Electric Coop
+    - Sanger
+    - Seguin
+    - Seymour
+    - Sharyland Utilities
+    - Smithville
+    - Source Power & Gas
+    - South Plains Electric Coop
+    - Southwest Power and Light
+    - Southwest Rural Electric Association (SWRE)
+    - Southwest Texas Electric Coop
+    - Southwestern Electric Power Co (SWEPCO)
+    - Spark Energy
+    - StarTex Power
+    - Stream Energy
+    - Summer Energy
+    - Swisher Electric Coop
+    - TXU Energy
+    - Tara Energy
+    - Taylor Electric Coop
+    - Texas-New Mexico Power Co
+    - Tri-County Electric Coop (TCE Texas)
+    - Tri-County Electric Coop (TCEC)
+    - TriEagle Energy
+    - Trinity Valley Electric Coop (TVEC)
+    - TruSmart Energy
+    - United Cooperative Services
+    - United Electric Coop Service
+    - Upshur RECC
+    - V247 Power Corp
+    - Verde Energy
+    - Veteran Energy
+    - Victoria Electric Coop
+    - WTU Energy
+    - Weatherford Municipal Utility System
+    - Weimar
+    - Wharton County Electric Coop
+    - Wise Electric Coop
+    - Wood County Electric Coop
+    - Xcel Energy
+    - Xoom Energy
+    - YEP Energy
+    - Yoakum
+  UT:
+    - Beaver City
+    - Bountiful
+    - Brigham City Public Power
+    - Dixie Power
+    - Empire Electric Association
+    - Enterprise
+    - Fairview
+    - Flowell Electric Association
+    - Garkane Energy
+    - Heber Light & Power Co
+    - Hurricane
+    - Hyrum City
+    - Intermountain Power Agency
+    - Kanosh
+    - Kaysville City
+    - Lehi City
+    - Logan City Light & Power
+    - Moon Lake Electric Association
+    - Morgan City
+    - Mount Pleasant
+    - Murray City Power Dept
+    - Navajo Tribal Utility Authority (NTUA)
+    - Nephi
+    - Paragonah
+    - Parowan
+    - Payson
+    - Price
+    - Provo City Power
+    - Rocky Mountain Power (PacifiCorp)
+    - Santa Clara
+    - South Utah Valley Electric Service District (SESD)
+    - Spanish Fork City Utility
+    - Springville City
+    - St George Utilities
+    - Washington
+  VA:
+    - A & N Electric Coop (ANEC)
+    - Appalachian Power (AEP)
+    - BARC Electric Coop
+    - Bristol Virginia Utilities (BVU)
+    - Central Virginia Electric Coop (CVEC)
+    - Community Electric Coop
+    - Craig-Botetourt Electric Coop
+    - Danville City Power & Light
+    - Delmarva Power & Light (DPL)
+    - Dominion Virginia Power
+    - Franklin
+    - Harrisonburg
+    - Kentucky Utilities (KU)
+    - Manassas
+    - Martinsville
+    - Mecklenburg Electric Coop (MECELEC)
+    - Northern Neck Electric Coop (NNEC)
+    - Northern Virginia Electric Coop (NOVEC)
+    - Potomac Edison (FirstEnergy)
+    - Prince George Electric Coop
+    - Radford
+    - Rappahannock Electric Coop (REC)
+    - Richlands
+    - Salem
+    - Shenandoah Valley Electric Coop (SVEC)
+    - Southside Electric Coop (SEC)
+    - Virginia Tech Electric Service
+    - Washington Gas Energy Services (WGES)
+  VT:
+    - Barton Village
+    - Burlington
+    - Enosburg Falls
+    - Green Mountain Power (GMP)
+    - Hardwick
+    - Hyde Park
+    - Johnson
+    - Ludlow
+    - Lyndonville
+    - Morrisville
+    - Northfield
+    - Omya
+    - Stowe
+    - Vermont Electric Coop (VEC)
+    - Washington Electric Coop
+  WA:
+    - Avista
+    - Benton PUD
+    - Benton REA
+    - Big Bend Electric Coop
+    - Blaine
+    - Chelan PUD
+    - Cheney
+    - Clallam County PUD
+    - Clark Public Utilities (CPU)
+    - Columbia REA
+    - Cowlitz PUD
+    - Douglas County PUD
+    - Ellensburg
+    - Elmhurst
+    - Ferry County PUD (FCPUD)
+    - Franklin County PUD
+    - Grant County PUD
+    - Grays Harbor PUD
+    - Inland Power & Light
+    - Jefferson PUD
+    - Kittitas PUD
+    - Klickitat County PUD
+    - Lakeview Light and Power
+    - Lewis County PUD No 1
+    - Mason County PUD 3
+    - Mason County PUD No 1
+    - Milton
+    - Modern Electric Water Co (MEWCO)
+    - Nespelem Valley Electric Coop
+    - Ohop Mutual Light Co
+    - Okanogan County Electric Coop
+    - Okanogan County PUD
+    - Orcas Power and Light Coop (OPALCO)
+    - Pacific County PUD No 2
+    - Pacific Power (PacifiCorp)
+    - Parkland Light and Water Co
+    - Pend Oreille County PUD No 1
+    - Peninsula Light Co
+    - Port Angeles
+    - Puget Sound Energy (PSE)
+    - Richland
+    - Ruston
+    - Seattle Public Utilities
+    - Skamania PUD
+    - Snohomish County PUD
+    - Tacoma Power
+    - Tanner Electric Coop
+    - Vera Irrigation District
+  WI:
+    - Adams-Columbia Electric Coop (ACECWI)
+    - Arcadia
+    - Barron Electric Coop
+    - Bayfield Electric Coop
+    - Benton
+    - Black River Falls Municipal Utilities (BRFMU)
+    - Bloomer Electric and Water Co
+    - Boscobel
+    - Cadott
+    - Central Wisconsin Electric Coop
+    - Chippewa Valley Electric Coop
+    - Clark Electric Coop
+    - Clintonville
+    - Cuba City
+    - Dahlberg Light & Power Co
+    - Dairyland Power Coop
+    - Dunn County Electric Coop
+    - Eagle River
+    - Eau Claire Electric Coop
+    - Gresham
+    - Hustisford Utilities
+    - Jackson Electric Coop
+    - Jump River Electric Coop
+    - Kaukauna
+    - Kiel
+    - Madison Gas & Electric (MGE)
+    - Manitowoc Public Utilities
+    - Marshfield
+    - New Holstein
+    - New London
+    - New Richmond
+    - North Central Power Co
+    - Northwestern Wisconsin Electric Co (NWECO)
+    - Oakdale Electric Coop
+    - Oconomowoc Utilities
+    - Oconto Electric Coop
+    - Pardeeville Public Utilities
+    - Pierce-Pepin Coop
+    - Plymouth
+    - Polk-Burnett Electric Coop
+    - Price Electric Coop
+    - Reedsburg Utility Commission
+    - Richland Electric Coop
+    - River Falls
+    - Riverland Energy Cooperative
+    - Rock Energy Cooperative
+    - Scenic Rivers Energy Coop
+    - Shawano Municipal Utilities
+    - Slinger Utilities
+    - Spooner
+    - St Croix Electric Coop
+    - Stoughton
+    - Sun Prairie Water and Light Commission
+    - Superior Water, Light & Power (SWL&P; Allete)
+    - Taylor Electric Coop
+    - Vernon Electric Coop
+    - WE Energies
+    - Washington Island Electric Coop
+    - Waunakee
+    - Waupun
+    - Westby
+    - Wisconsin Power & Light (WPL; Alliant)
+    - Wisconsin Public Service (WPS)
+    - Wisconsin Rapids Water Works and Lighting Commission
+    - Xcel Energy
+  WV:
+    - Appalachian Power (AEP)
+    - Harrison REA
+    - Mon Power (FirstEnergy)
+    - Potomac Edison (FirstEnergy)
+    - Wheeling Power Co (AEP)
+  WY:
+    - Big Horn Electric Coop
+    - Big Horn REC
+    - Bridger Valley Electric Association
+    - Carbon Power and Light
+    - Cheyenne Light Fuel & Power Co
+    - Cody
+    - Garland Light and Power Co
+    - Gillette
+    - High Plains Power
+    - High West Energy
+    - Lower Valley Energy
+    - Montana-Dakota Utilities
+    - Powder River Energy (PRE)
+    - Rocky Mountain Power (PacifiCorp)
+    - Wheatland City
+    - Wheatland REA
+    - Willwood Light & Power Co
+
+state:
+  - AL
+  - AK
+  - AZ
+  - AR
+  - CA
+  - CO
+  - CT
+  - DE
+  - DC
+  - FL
+  - GA
+  - HI
+  - ID
+  - IL
+  - IN
+  - IA
+  - KS
+  - KY
+  - LA
+  - ME
+  - MD
+  - MA
+  - MI
+  - MN
+  - MS
+  - MO
+  - MT
+  - NE
+  - NV
+  - NH
+  - NJ
+  - NM
+  - NY
+  - NC
+  - ND
+  - OH
+  - OK
+  - OR
+  - PA
+  - RI
+  - SC
+  - SD
+  - TN
+  - TX
+  - UT
+  - VT
+  - VA
+  - WA
+  - WV
+  - WI
+  - WY
+  - "*Canada*"
+  - AB
+  - BC
+  - MB
+  - NB
+  - NL
+  - NT
+  - NS
+  - NU
+  - ON
+  - PE
+  - QC
+  - SK
+  - YT
+  - "*US Possession*"
+  - AS
+  - FM
+  - GU
+  - MH
+  - MP
+  - PW
+  - PR
+  - VI
+
+my_birthyear:
+  - 2010
+  - 2009
+  - 2008
+  - 2007
+  - 2006
+  - 2005
+  - 2004
+  - 2003
+  - 2002
+  - 2001
+  - 2000
+  - 1999
+  - 1998
+  - 1997
+  - 1996
+  - 1995
+  - 1994
+  - 1993
+  - 1992
+  - 1991
+  - 1990
+  - 1989
+  - 1988
+  - 1987
+  - 1986
+  - 1985
+  - 1984
+  - 1983
+  - 1982
+  - 1981
+  - 1980
+  - 1979
+  - 1978
+  - 1977
+  - 1976
+  - 1975
+  - 1974
+  - 1973
+  - 1972
+  - 1971
+  - 1970
+  - 1969
+  - 1968
+  - 1967
+  - 1966
+  - 1965
+  - 1964
+  - 1963
+  - 1962
+  - 1961
+  - 1960
+  - 1959
+  - 1958
+  - 1957
+  - 1956
+  - 1955
+  - 1954
+  - 1953
+  - 1952
+  - 1951
+  - 1950
+  - 1949
+  - 1948
+  - 1947
+  - 1946
+  - 1945
+  - 1944
+  - 1943
+  - 1942
+  - 1941
+  - 1940
+  - 1939
+  - 1938
+  - 1937
+  - 1936
+  - 1935
+  - 1934
+  - 1933
+  - 1932
+  - 1931
+  - 1930
+  - 1929
+  - 1928
+  - 1927
+  - 1926
+  - 1925
+  - 1924
+  - 1923
+  - 1922
+  - 1921
+  - 1920
+  - 1919
+  - 1918
+  - 1917
+  - 1916
+  - 1915
+  - 1914
+  - 1913
+  - 1912
+  - 1911
+  - 1910

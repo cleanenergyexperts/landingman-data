@@ -3,6 +3,7 @@ require 'middleman-core'
 
 module Landingman
   class DataExtension < ::Middleman::Extension
+    DATA_DIR = File.expand_path(File.join('..', '..', 'data'), __FILE__)
     DATA_FILE_MATCHER = /^(.*?)[\w-]+\.(yml|yaml|json)$/
 
     option :data1_dir, '../_data',  'Global Data Directory #1'
@@ -20,6 +21,12 @@ module Landingman
 
       def configure_data_files
         # Global Data Directory: ../_data or ../data
+
+        if Dir.exist?(DATA_DIR) then
+          watcher = app.files.watch :global_data0, path: DATA_DIR, only: DATA_FILE_MATCHER
+          app.files.on_change(:global_data0, &method(:update_data))
+          watcher.poll_once!
+        end
 
         if !options.data1_dir.nil? && !options.data1_dir.blank? then
           data1_dir = File.expand_path(File.join(app.root, options.data1_dir))
