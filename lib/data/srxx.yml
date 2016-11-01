@@ -17,7 +17,7 @@ electric_bill:
   - $701-800
   - $801+
   
-lectric_utility: !!map
+electric_utility: !!map
   AK:
     - Akutan
     - Alaska Electric Light and Power Co
